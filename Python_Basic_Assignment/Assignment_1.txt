@@ -1,0 +1,68 @@
+1. In the below elements which of them are values or an expression? EX:- values can be integer or string and expressions will be mathmatical operators.
+Answer:- 
+    Integer: 6
+    String: 'hello'
+    Expression:
+    Float: -87.8
+    mathmatical operators: *,/,+,-
+    
+2.What is hte diffrence between between string and varibale?
+Answer:-
+    STRING: STRING is a value representing text.
+    VARIABLE: Variable is a name refers the value.
+ 
+3. Describe three diffrent data types.
+Answer:-
+    Numeric Data Type(int,long,float,complex)
+    a. int :- hold signed integers on Non limited length.
+    b. long:- hold long integer.
+    c. complex:- hold complex number.
+    
+    String Data Type:-
+         String is a sequence of character,which is represented by the double or single quotes.
+        
+    List Data Type:-
+        List is the versatile data types exclusive in python.
+        List in python is it can continuously hold diffrent type of Data.
+        
+4.What is an expression made up of? What do all expressions do?
+Answer:- It is made up of variables, operators, and method invocations.
+         An expression is a combination of operators and operand that is interpreted produce some other value.
+      
+5.This assignment statements, like spam =10.what is the diffrence between an expression and a statement?
+Answer:-spam = 10  (statement)
+        spam = 10 +spam (expression)
+       
+6. After running the following code,what does the variable bacon contain?
+    bacon =22
+    bacon + 1
+
+Answer:- output : value of bacon 22 for "bacon = 22 "
+                  value of bacon is same but output is 23 for "bacon + 1"
+                  
+7. What should the values of the following two terms be?
+      a.  'spam' + 'spamspam'
+      b.   'spam'*3
+Answer:-
+a. 'spam' + 'spamspam'
+           output: 'spamspamspam'
+b.  'spam'*3
+           output: 'spamspamspam'
+           
+8.Why is eggs a valid variable name while 100 is invalid?
+Answer:-
+        egg is valid because its a string.and variable begin with char or string.
+        100 is invalid because varible never starts with number(integer).
+        
+
+9.What three function can be used to get the integer,float-point number,or string version of value?
+Answer:-
+         int(),float(),char().
+         
+10.Why does this expression cause an error? How can you fix it?
+           'I have eaten'+ 99 +'burritos.'
+Answere:-    because 99 is not a string to concatinate with other two given string. so we use single code to treated as a string. 
+            solution:  'I have eaten'+ ' 99 ' + 'burritos' 
+                    output:  'I have eaten 99 burritos'
+    
+     
