@@ -1,0 +1,71 @@
+1. What exactly is []?
+Answere: it a square bracket.use itrables of list.
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello'as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+Answere: spam.insert(2,'hello')
+        third value = 2nd index if it start with zero.
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Answere: 3
+
+4. What is the value of spam[-1]?
+Answere: spam =['a','b','c','d']
+        output: 'd'
+        
+5. What is the value of spam[:2]?
+Let's pretend bacon has the list [3.14,'cat',11,'cat', True] for the next three questions.
+Answere: spam =['a','b','c','d']
+         output: ['a','b','c']
+         
+
+6. What is the value of bacon.index('cat')?
+Answere: bacon = [3.14,'cat',11,'cat', True]
+        output: 1
+        
+7. How does bacon.append(99) change the look of the list value in bacon?
+Answere: bacon =[3.14,'cat',11,'cat', True]
+         output: [3.14,'cat',11,'cat', True,99]
+        
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Answere:[3.14, 11, 'cat', True]
+
+9. What are the list concatenation and list replication operators?
+Answere: x = [2,5,6]
+
+         list concatenation : 'sapm' + 'spamspam' = 'spamspamspam' 
+         list replication operators: 'spam' * 3 = 'spamspamspam'
+
+10. What is difference between the list methods append() and insert()?
+Answere: append(): it can insert element at the end of list.
+         insert():insert can use if we insert element by the help of index.
+         
+11. What are the two methods for removing items from a list?
+Answere: remove(),delete().
+
+12. Describe how list values and string values are identical.
+Answere: list value : its is contain diffrent data types like string,integer float ,complexnumber etc.
+         string value: it can be use in single or double quotes only its the sequence of character.
+
+13. What is the difference between tuples and lists?
+Answere : tuples: use (), it contain unique value,it's immutable(it cant change).
+          lists: use [],it conatin duplicate valueit is mutable.
+          
+14. How do you type a tuple value that only contains the integer 42?
+Answere: (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Answere:using typecast
+        x = [2,5,8,6]   its a list change in tuple
+    ex1: y = tuple(x) 
+         y = (2,5,8,6)   its convert into tuple now change in list 
+    ex2: z = list(y) 
+        now z  = [2,5,8,6] its a list now
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Answere:
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Answere: shallowcopy: copy.copy() its a syntax when we perform any change in shallow copy than the change will also perform on orignal.
+         deepcopy: copy.deepcopy() its a syntax when we perform any change in deep copy than the change will not effect on orignal.
