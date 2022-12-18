@@ -24,7 +24,8 @@ Function call: A function call is the code used to pass control to a function.
 
 X----------------------------------------------------------------------------X
 5. How many global scopes are there in a Python program? How many local scopes?
-Answere:
+Answere: global :  enclosing,buildin
+         local  :  local, enclosing(if we use that outside function)
         
 
 X-----------------------------------------------------------------------X
