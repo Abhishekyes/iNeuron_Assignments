@@ -1,0 +1,82 @@
+1. What are escape characters, and how do you use them?
+Answere:Escape chaaracter represent character in string values that would otherwise be difficult to type into code
+        \' Single Quote
+        \\ Backslash
+        \n New Line
+        \r Carriage Return
+        \t Tab
+        \b Backspace
+        \f Form Feed
+        \ooo Octal value
+        \xhh Hex value
+
+X-------------------------------------------------------------------------------------X
+2. What do the escape characters n and t stand for?
+Answere:\n : new line character 
+        \t : tab space character
+
+X-------------------------------------------------------------------------------------X
+3. What is the way to include backslash characters in a string?
+Answere:  use '\' directly in a string  
+        x = " this is a boy\ one"
+        output : this is a boy\ one
+
+X-------------------------------------------------------------------------------------X
+4. The string 'Howl's Moving Castle' is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+Answere: because you've used double quotes to mark the begining and end of the string
+
+X-------------------------------------------------------------------------------------X
+5. How do you write a string of newlines if you don't want to use the \n character?
+Answere:Multiline strings allow you to use newlines in strings.
+        use multiple print() than all print statement print in next line.
+
+X-------------------------------------------------------------------------------------X
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+Answere:'H'
+        'Hello'
+        'Hello'
+        'lo, world!'
+X-------------------------------------------------------------------------------------X
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+Answere:'HELLO'
+         True
+        'hello'
+X-------------------------------------------------------------------------------------X
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+Answere: 1. 'Remember, remember, the fifth of July.'.split()
+    output: ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+         2. '-'.join('There can only one.'.split())
+    output: 'There-can-only-one.
+    
+X-------------------------------------------------------------------------------------X
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Answere: rjust(),ljust(),center()
+        string = "abhi"
+        width = 8
+        fillchar ='*'
+
+
+        print(string.rjust(width,fillchar))
+        print(string.ljust(width,fillchar))
+        print(string.center(width,fillchar))
+X-------------------------------------------------------------------------------------X
+
+10. What is the best way to remove whitespace characters from the start or 
+end?
+Answere:from start : .lstrip()
+        from end   : .rstrip()
+X-------------------------------------------------------------------------------------X
+
+
+
