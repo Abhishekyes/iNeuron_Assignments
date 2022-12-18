@@ -64,7 +64,8 @@ Answere:using typecast
         now z  = [2,5,8,6] its a list now
 
 16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
-Answere:
+Answere:Variables will contain references to list values rather than list values themselves.
+        
 
 17. How do you distinguish between copy.copy() and copy.deepcopy()?
 Answere: shallowcopy: copy.copy() its a syntax when we perform any change in shallow copy than the change will also perform on orignal.
