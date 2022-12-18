@@ -34,5 +34,8 @@ Answere: spam.setdefault('color','black')
 
 
 8. How do you "pretty print" dictionary values using which module and function?
-Answere:
+Answere: from pprint import pprint
+        pprint(die(dic_name))
+
+
 
